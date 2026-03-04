@@ -4,5 +4,5 @@ dotenv.config();
 
 export const config = {
   port: process.env.PORT || 3002,
-  pokeApiUrl: process.env.POKEAPI_URL || 'https://pokeapi.co/api/v2/pokemon',
+  pokeApiUrl: process.env.POKEAPI_URL || 'https://rickandmortyapi.com/api/character',
 };
