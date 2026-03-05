@@ -33,7 +33,7 @@ export function validateConfig(): void {
     throw new Error('PORT debe estar entre 1 y 65535');
   }
   
-  console.log('✅ Configuración validada correctamente');
+  console.log(' Configuración validada correctamente');
 }
 
 
